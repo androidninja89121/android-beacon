@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:background="@color/banner_color"
+        android:layout_width="match_parent"
+        android:alpha="0.8"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/txvBanner"
+            android:text="@string/banner_text"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/white_color"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:alpha="0.8"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txvStatusConnectionLabel"
+            android:background="@color/white_color"
+            android:textColor="@color/banner_color"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="@string/connection_status"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/txvStatusConnection"
+            android:background="@color/value_text_background_color"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/txvFoundedBeaconLabel"
+            android:background="@color/white_color"
+            android:textColor="@color/banner_color"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="120dp"
+            android:text="@string/ble_beacon"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <ListView
+            android:id="@+id/lstBeacons"
+            android:divider="@color/white_color"
+            android:dividerHeight="2px"
+            android:background="@color/value_text_background_color"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/txvGPSLabel"
+            android:background="@color/white_color"
+            android:textColor="@color/banner_color"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginBottom="90dp"
+            android:layout_alignParentBottom="true"
+            android:text="@string/gps_label"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/txvGPS"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/value_text_background_color" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

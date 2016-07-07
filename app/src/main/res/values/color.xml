@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_color">#000000</color>
+    <color name="banner_color">#0b66cc</color>
+    <color name="white_color">#ffffff</color>
+    <color name="page_color">#ccdeef</color>
+    <color name="success_color">#7eaf82</color>
+    <color name="failure_color">#ff0000</color>
+    <color name="value_text_background_color">#ffbc72</color>
+    <color name="scrollview_background_color">#deebf7</color>
+</resources>

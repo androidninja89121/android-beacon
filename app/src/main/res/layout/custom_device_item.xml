@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="70dp">
+    <TextView
+        android:id="@+id/txvAlarm"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/white_color"
+        android:textStyle="bold"
+        android:text="@string/beacon_connection_alarm"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <TextView
+        android:id="@+id/txvUUID"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="30dp"
+        android:textSize="14sp"
+        android:textColor="@color/white_color"
+        android:text="@string/beacon_uuid"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/txvNMajor"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="30dp"
+        android:textSize="14sp"
+        android:textColor="@color/white_color"
+        android:text="@string/beacon_nmajor"
+        android:gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/txvNMinor"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="160dp"
+        android:textSize="14sp"
+        android:textColor="@color/white_color"
+        android:text="@string/beacon_nminor"
+        android:gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+</RelativeLayout>
